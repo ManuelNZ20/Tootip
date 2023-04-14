@@ -1,0 +1,30 @@
+*,
+::before,
+::after {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-tooltip {
+    border:none;
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color:steelblue;
+    color:white;
+    border-bottom:2px solid rgb(47, 87, 120);
+    transition: all .4s;
+}
+
+.btn-tooltip:hover {
+    transform:translateY(-5px);
+    box-shadow: 0px 5px 0px 0px rgb(36, 66, 91);
+    background-color: rgb(63, 119, 165);
+    color:rgb(232, 241, 248);
+}
